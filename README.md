@@ -1,6 +1,6 @@
 # Real time feedback for words you flag as "bad"
 
-![check /example.gif]("https://github.com/mberk06/um_detector/blob/main/example.gif")
+![check /example.gif]("https://github.com/mberk06/um_detector/blob/main/example.gif?raw=true")
 
 
 ### Steps
