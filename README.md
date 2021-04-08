@@ -1,6 +1,6 @@
 # Real time feedback for words you flag as "bad"
 
-![check /example.gif]("example.gif")
+![check /example.gif](example.gif)
 
 
 ### Steps
