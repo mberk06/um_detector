@@ -1,6 +1,6 @@
 # Real time feedback for words you flag as "bad"
 
-![check /example.gif]("https://github.com/mberk06/um_detector/blob/main/example.gif")
+![check /example.gif](example.gif)
 
 (note that it doesn't differentiate `i'm` from `um` very well, so I flagged `i'm`)
 
