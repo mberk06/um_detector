@@ -1,5 +1,8 @@
 # Real time feedback for words you flag as "bad"
 
+![alt text]("/exmaple.gif")
+
+
 ### Steps
 1. Clone repo
 2. Download the [speech recognition model](https://alphacephei.com/vosk/models) and save to `um_detector` directory (rename model download as "model"): Here's a [setup tutorial](https://www.youtube.com/watch?v=Itic1lFc4Gg&t=1s&ab_channel=yingshaoxo%27slab) and the model's [alphacephei api](https://alphacephei.com/vosk/install). 
@@ -15,3 +18,4 @@ The reason for choosing this api is because it can process words in realtime (of
 3. Provide post talk summary of your presentation (most/least frequent words, total time not speaking, etc.)
 
 Any ideas/modifications/comments are welcome.
+
