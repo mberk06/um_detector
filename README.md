@@ -2,6 +2,8 @@
 
 ![check /example.gif]("https://github.com/mberk06/um_detector/blob/main/example.gif")
 
+(note that it doesn't differentiate `i'm` from `um` very well, so I flagged `i'm`)
+
 
 ### Steps
 1. Clone repo
