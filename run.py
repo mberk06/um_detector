@@ -93,13 +93,11 @@ def run():
                     if rec.AcceptWaveform(data):
                         print(rec.Result())
                     else:
-                        print(rec.PartialResult())
-                        print(ast.literal_eval(rec.PartialResult()))
                         sentence = ast.literal_eval(rec.PartialResult())['partial'].split(' ')
                         print(sentence)
 
                         if len(sentence) > 0:
-                            if sentence[-1] in flagged_words:
+                            if any([True if s in flagged_words else False for s in sentence]):
                                 root.configure(background='red')
                             else: 
                                 root.configure(background='black')
