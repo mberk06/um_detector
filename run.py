@@ -96,8 +96,13 @@ def run():
                         sentence = ast.literal_eval(rec.PartialResult())['partial'].split(' ')
                         print(sentence)
 
-                        if len(sentence) > 0:
+                        if len(sentence) < 6:
                             if any([True if s in flagged_words else False for s in sentence]):
+                                root.configure(background='red')
+                            else: 
+                                root.configure(background='black')
+                        else:
+                            if any([True if s in flagged_words else False for s in sentence[-5:]]):
                                 root.configure(background='red')
                             else: 
                                 root.configure(background='black')
